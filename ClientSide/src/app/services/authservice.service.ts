@@ -6,8 +6,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http'
   providedIn: 'root'
 })
 export class AuthserviceService {
- domain = "http://localhost:8085/";
-  // domain = "";
+//  domain = "http://localhost:8085/";
+  domain = "";
   constructor(private http: HttpClient,
   ) { }
   options

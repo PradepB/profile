@@ -40,6 +40,10 @@ hr {
  .mat-card-header-text {
      margin: 0 0px !important;
 }
+.paginationstyle{
+    text-align:center
+}
+
 @media only screen and (max-width: 600px) {
     #blur{
         font-size: 17px;
@@ -47,7 +51,13 @@ hr {
         margin-top: -10%;
     }
     #contentmsg  {
-        margin-top: -28%;
+        margin-top: -20%;
      }
-    
+     #mobile{
+        margin-top: 15px;
+     }
+     .paginationstyle{
+        margin-left: -15%;
+        text-align:center
+    }
   }

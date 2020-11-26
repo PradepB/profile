@@ -21,7 +21,9 @@ import { IndexComponent } from './index/index.component';
 import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
-import { ProfileComponent } from './profile/profile.component'
+import { ProfileComponent } from './profile/profile.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment'
 // import { FilterPipeModule } from 'ngx-filter-pipe';
 
 export function tokenGetter() {
@@ -58,7 +60,9 @@ export function tokenGetter() {
         // whitelistedDomains: ['localhost:4000'],
         // blacklistedRoutes: ['localhost:4000/api/auth']
       }
-    })
+    }),
+    
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [AuthserviceService ],
   bootstrap: [AppComponent]

@@ -1,0 +1,90 @@
+{
+  "configVersion": 1,
+  "timestamp": 1606406472473,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.18b2b9376fde5d4c4fa3.js",
+        "/main-es5.18b2b9376fde5d4c4fa3.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.3fd94ed6a324eee92aec.js",
+        "/polyfills-es5.c219b7059a7feb126472.js",
+        "/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/runtime-es5.0811dcefd377500b5b1a.js",
+        "/scripts.04da452afd00bffae5fb.js",
+        "/styles.9db2b3ed8b437056d291.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/heart_white.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/link-symbol.png",
+        "/assets/p.jpg",
+        "/assets/redheart.webp"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/heart_white.png": "c77eadc0806f37f7dbdfde903d4f722e7535cd76",
+    "/assets/icons/icon-128x128.png": "82c9e55d125585bfd0f40bc77fc3c477f8276d33",
+    "/assets/icons/icon-144x144.png": "6c50a73aea85d0adc29b22ee1f065f3e33c3e656",
+    "/assets/icons/icon-152x152.png": "270fa56d0824d652af3e90ac8bae2600974b3176",
+    "/assets/icons/icon-192x192.png": "d582d2070e5bfd9bc260cb1b73f48137233bee9d",
+    "/assets/icons/icon-384x384.png": "902e4839d0f3b2eb8993835bd9e9df42fd9f1ec0",
+    "/assets/icons/icon-512x512.png": "e94d548d86a2dfa02c4d33eee12fe6e78bf0b373",
+    "/assets/icons/icon-72x72.png": "405a20cfc028a1b886323020998b5a195b099342",
+    "/assets/icons/icon-96x96.png": "21c5c13f8528cf6c7987e90e898ba9fda1b08c71",
+    "/assets/link-symbol.png": "b5d64b73c5a9533c87b88b83a8e4e39ba44976a9",
+    "/assets/p.jpg": "3674153b464f39cc93f664729e6f971937001439",
+    "/assets/redheart.webp": "96ce0b5c1ac93757fc7162e9a55954d4bad1efb0",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "667bc7dbc91ce88d38aa84555df674a22f0c2c5e",
+    "/main-es2015.18b2b9376fde5d4c4fa3.js": "a24a3dee663239ddccef40442c9d872911861a43",
+    "/main-es5.18b2b9376fde5d4c4fa3.js": "decb255ca14af962dd4ab0b9ea2cded11e37daae",
+    "/manifest.webmanifest": "4ff78d4d2cbc35d1b3178b709f81fdca7d874e8c",
+    "/polyfills-es2015.3fd94ed6a324eee92aec.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.c219b7059a7feb126472.js": "4c46a59a04fcad729e7b2431f01c09b3d92070c4",
+    "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/scripts.04da452afd00bffae5fb.js": "a260110c2914e8876d97630f581192dea5d13a0b",
+    "/styles.9db2b3ed8b437056d291.css": "bfd429b829c3cbe812249048a5c889caa0d306cd"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
